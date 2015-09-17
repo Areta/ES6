@@ -9,10 +9,10 @@ ES6
 
 ##SET
 
-var items = new Set();
+'var items = new Set();
 items.add(5);
 items.add("5");
-items.add(5); //ignored
+items.add(5);' //ignored
 
 items.size;    // 2
 
