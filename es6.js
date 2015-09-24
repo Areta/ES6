@@ -1,4 +1,5 @@
 //chrome://flags/#enable-javascript-harmony
+//http://www.es6fiddle.net/lenvwiqk/
 /**
  *SET
  */
