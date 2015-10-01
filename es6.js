@@ -1,5 +1,6 @@
 //chrome://flags/#enable-javascript-harmony
-//http://www.es6fiddle.net/lenvwiqk/
+// http://www.es6fiddle.net/lenvwiqk/
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 /**
  *SET
  */
@@ -61,9 +62,9 @@ for (let value of map.values()) {
     console.log("Value: %s", value);
 }
 
-//Пари ключ-значення ()
-for (let item of map.items()) {
-    console.log("Key: %s, Value: %s", item[0], item[1]);
+
+for (var [key, value] of myMap.entries()) {
+  console.log(key + " = " + value);
 }
 
 //Пари ключ-значення
